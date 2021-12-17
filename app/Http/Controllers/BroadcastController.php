@@ -23,6 +23,7 @@ class BroadcastController extends Controller
         $selectedCategories = $request->get('events') ?? $request->get('selectedCategories');
 
         $geometries = Geometry::query()
+            ->with('event')
             ->when(
                 $selectedCategories,
                 function ($q) use ($selectedCategories) {

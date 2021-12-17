@@ -26,9 +26,6 @@ final class Geometry extends Model
         'date_and_time',
         'coordinates'
     ];
-//    protected $casts = [
-//        'coordinates' => 'array',
-//    ];
 
     public function event(): BelongsTo
     {
