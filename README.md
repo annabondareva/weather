@@ -7,7 +7,7 @@ To set up this project you need to have:
 - PHP 7.4 or higher
 - Laravel 8
 
-####Execute the following actions :
+###Execute the following actions :
 
 - clone the project from the repository
 - create DB for example "weather"
@@ -16,7 +16,7 @@ To set up this project you need to have:
 - run 'php artisan key:generate'
 - run 'php artisan migrate'
 
-####After all this steps run following command to import data from API (https://eonet.gsfc.nasa.gov/docs/v2.1)
+###After all this steps run following command to import data from API (https://eonet.gsfc.nasa.gov/docs/v2.1)
 Please be careful and run them in the same order they are listed
 
 - run 'php artisan import:categories'
@@ -24,7 +24,7 @@ Please be careful and run them in the same order they are listed
 
 Now you can start the localhost using artisan serve,Mamp etc.
 
-####If you want update the data from API you can rerun import command and new data will be added.
+###If you want update the data from API you can rerun import command and new data will be added.
 
 
 
